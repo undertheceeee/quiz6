@@ -1,4 +1,4 @@
-# PinkServices - Service Marketplace
+# Pinky&Bluey Car Care Services - Service Marketplace
 
 A full-stack web application for connecting users with service providers. Built with Django REST Framework backend and React frontend, featuring a unique pink theme.
 
