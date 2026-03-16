@@ -1,0 +1,82 @@
+[
+  {
+    "model": "users.customuser",
+    "pk": 1,
+    "fields": {
+      "username": "expert_mike",
+      "email": "mike@autorepair.com",
+      "phone_number": "09171234567",
+      "first_name": "Mike",
+      "last_name": "Santos",
+      "location": "Quezon City",
+      "gender": "male",
+      "role": "seller",
+      "merchant_id": "paypal-mike",
+      "password": "pbkdf2_sha256$600000$dummy$dummyhash1"
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 2,
+    "fields": {
+      "username": "expert_anna",
+      "email": "anna@autorepair.com",
+      "phone_number": "09179876543",
+      "first_name": "Anna",
+      "last_name": "Reyes",
+      "location": "Makati",
+      "gender": "female",
+      "role": "seller",
+      "merchant_id": "paypal-anna",
+      "password": "pbkdf2_sha256$600000$dummy$dummyhash2"
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 3,
+    "fields": {
+      "username": "expert_john",
+      "email": "john@autorepair.com",
+      "phone_number": "09179998888",
+      "first_name": "John",
+      "last_name": "Tan",
+      "location": "Pasig",
+      "gender": "male",
+      "role": "seller",
+      "merchant_id": "paypal-john",
+      "password": "pbkdf2_sha256$600000$dummy$dummyhash3"
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 4,
+    "fields": {
+      "username": "admin",
+      "email": "admin@autorepair.com",
+      "phone_number": "09170000000",
+      "first_name": "Admin",
+      "last_name": "User",
+      "location": "Manila",
+      "gender": "other",
+      "role": "admin",
+      "merchant_id": "paypal-admin",
+      "password": "pbkdf2_sha256$600000$dummy$dummyhash4"
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 5,
+    "fields": {
+      "username": "car_owner",
+      "email": "owner@car.com",
+      "phone_number": "09175555555",
+      "first_name": "Car",
+      "last_name": "Owner",
+      "location": "Caloocan",
+      "gender": "nonbinary",
+      "role": "user",
+      "merchant_id": "",
+      "password": "pbkdf2_sha256$600000$dummy$dummyhash5"
+    }
+  }
+]

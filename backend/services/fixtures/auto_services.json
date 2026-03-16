@@ -1,0 +1,81 @@
+[
+  {
+    "model": "services.service",
+    "pk": 1,
+    "fields": {
+      "seller": 1,
+      "service_name": "Engine Diagnostic & Checkup",
+      "description": "Comprehensive engine diagnostics using OBD-II scanner and manual inspection. Includes error code reading, performance analysis, and expert recommendations.",
+      "price": "120.00",
+      "duration_of_service": "1 hour",
+      "sample_image": "services/engine_diagnostic.jpg",
+      "created_at": "2026-03-01T10:00:00Z"
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 2,
+    "fields": {
+      "seller": 2,
+      "service_name": "Brake System Repair",
+      "description": "Full brake system inspection and repair. Includes pad replacement, rotor resurfacing, and brake fluid top-up for all vehicle types.",
+      "price": "200.00",
+      "duration_of_service": "2 hours",
+      "sample_image": "services/brake_repair.jpg",
+      "created_at": "2026-03-02T11:00:00Z"
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 3,
+    "fields": {
+      "seller": 1,
+      "service_name": "Air Conditioning Recharge",
+      "description": "A/C system diagnostic, refrigerant recharge, and leak check. Keeps your car cool and comfortable during hot weather.",
+      "price": "90.00",
+      "duration_of_service": "45 minutes",
+      "sample_image": "services/ac_recharge.jpg",
+      "created_at": "2026-03-03T09:30:00Z"
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 4,
+    "fields": {
+      "seller": 3,
+      "service_name": "Transmission Fluid Change",
+      "description": "Drain and replace transmission fluid for smoother gear shifts and longer transmission life. Includes filter replacement.",
+      "price": "150.00",
+      "duration_of_service": "1.5 hours",
+      "sample_image": "services/transmission_fluid.jpg",
+      "created_at": "2026-03-04T14:00:00Z"
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 5,
+    "fields": {
+      "seller": 2,
+      "service_name": "Battery Replacement & Testing",
+      "description": "Battery health check, terminal cleaning, and installation of new battery if needed. Includes warranty on new battery.",
+      "price": "110.00",
+      "duration_of_service": "30 minutes",
+      "sample_image": "services/battery_replacement.jpg",
+      "created_at": "2026-03-05T13:00:00Z"
+    }
+      }
+      ,
+      {
+        "model": "services.service",
+        "pk": 6,
+        "fields": {
+          "seller": 1,
+          "service_name": "Custom Diagnostic Service",
+          "description": "Specialized diagnostic service with user-supplied image. Includes advanced inspection and personalized recommendations.",
+          "price": "180.00",
+          "duration_of_service": "1.5 hours",
+          "sample_image": "services/custom_service.jpg",
+          "created_at": "2026-03-06T10:00:00Z"
+        }
+      }
+    ]
